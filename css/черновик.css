@@ -1,0 +1,52 @@
+#table
+{
+    position: relative;
+    width:40%;
+    margin-left: 40%;
+    height: 100px;
+    font-size: 35px;
+}
+#table p
+{
+    font-size: 35px;
+    text-align:center;
+}
+#tInput
+{
+    position: relative;
+    top: 110px;
+
+}
+#qOutput
+{
+    position: relative;
+    top: 110px;
+    left: 570px;
+}
+#TruthTable
+{
+    border-collapse: collapse;
+    margin: 0 auto;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+
+}
+th{background-color:#339b28;color: white;}
+tr,td,th,table
+{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+#TruthTable tr:hover {background-color: #ddd;}
+tr:nth-child(even){background-color: #f2f2f2;}
+#controls
+{
+    text-align:center;
+    width:50%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 0;
+    height: 60px;
+}

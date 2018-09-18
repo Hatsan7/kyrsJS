@@ -1,0 +1,151 @@
+#block
+{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 650px;
+    border: 1px solid black;
+    background: linear-gradient(to top left, #39c6f9, white, white, white, #39c6f9);
+}
+#block h1
+{
+    position: center;
+    margin-top: 0%;
+    text-align: center;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 50px;
+}
+#oscilloscopeScreen {
+    position: absolute;
+    bottom: 6%;
+    left: 34.5%;
+    background: black;
+    border: solid 1mm #39c6f9;
+}
+#invertor
+{
+    position: absolute;
+    top: 160px;
+    left: 35%;
+    width: 350px;
+    height: 270px;
+    background-image: url(invers.png) ;
+    background-size: cover;
+}
+input
+{
+    width: 30px;
+    height: 50px;
+    font-size: 35px;
+}
+#X
+{
+    position: relative;
+    top: 145px;
+    left: 370px;
+    width: 60px;
+    font-size: 50px;
+    font-family: Verdana;
+    color: #880000;
+}
+#Y
+{
+    position: relative;
+    width: 60px;
+    top: 35px;
+    left: 795px;
+
+    font-size: 50px;
+    font-family: Verdana;
+    color: #880000;
+}
+#tInput
+{
+    position: absolute;
+    top: 100px;
+    border: 1px solid #880000;
+    text-align: center;
+}
+#qOutput
+{
+    position: absolute;
+    top: 100px;
+    right: 0%;
+    text-align: center;
+    border: 1px solid green;
+}
+#table
+{
+    position: absolute;
+    right: 210px;
+    top: 180px;
+    width: 150px;
+    height: 270px;
+
+}
+#table p
+{
+    position: absolute;
+    top: -10%;
+    right: 0%;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+#TruthTable
+{
+    border-collapse: collapse;
+    margin: 0 auto;
+    position: absolute;
+    right: 38px;
+    top: 70px;
+    font-size: 35px;
+    font-family: "Times New Roman";
+}
+th{background: linear-gradient(to top left, deepskyblue, wheat)
+}
+tr,td,th,table
+{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+#controls
+{
+    position: absolute;
+    left: 60px;
+    top: 185px;
+
+    text-align: center;
+}
+#start
+{
+
+}
+button
+{
+    background: linear-gradient(to top, deepskyblue, wheat);
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    height: 50px;
+    width: 220px;
+    margin: 5px;
+}
+button:hover
+{
+    background-color: white;
+}
+button:disabled
+{
+    background-color: #ddd;
+    color: grey;
+
+}

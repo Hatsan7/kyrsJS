@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Логическая операция НЕ</title>
+    <link rel="stylesheet" href="../css/29_css.css" type="text/css">
+    <script src="../js/new29.js">
+    </script>
+    <script ></script>
+</head>
+<body onload="drawExes()" >
+<div id="block">
+        <h1>Логический элемент "НЕ"(инверсия)</h1>
+    <canvas id="oscilloscopeScreen" width="360" height="144"></canvas>
+
+    <div id="invertor">
+        <form>
+         <input type="text" name="tInput" id="tInput" >
+         <input type="text" name="qOutput" id="qOutput"><br/>
+        </form>
+
+    </div>
+    <div id="table">
+        <p>Таблица <br> истинности</p>
+        <table id="TruthTable">
+            <tr>
+                <th>X</th>
+                <th>Y</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td></td>
+            </tr>
+            <td>1</td>
+            <td></td>
+            </tr>
+        </table>
+    </div>
+    <div id="controls">
+       <div id="start"> <button onclick="TurnOnInvert()" id="OnInvert">Включить инвертор</button><br>
+        <button onclick="TurnOffInvert()" disabled="true" id="OffInvert">Выключить инвертор</button>
+       </div><br/>
+        <button onclick="Calculate()" disabled="true" id="Calc">Построить таблицу истинности</button><br/>
+        <button onclick="Generator()" disabled="true" id="Gen">Включить генератор</button><br/>
+    </div>
+    <p id="X">X=</p>
+    <p id="Y">=Y</p>
+</div>
+</body>
+</html>
